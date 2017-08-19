@@ -11,3 +11,11 @@ console.log(`b value before: ${b}`);
 console.log('-------------------');
 console.log(`a value after: ${a}`);
 console.log(`b value after: ${b}`);
+
+var todo = {
+    id: 100,
+    names: "terap",
+    year: 2014
+}
+
+var {id, names, year} = todo;
